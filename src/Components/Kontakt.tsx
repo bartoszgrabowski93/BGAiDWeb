@@ -1,14 +1,14 @@
 import React from "react";
 import "../Styles/Style.css";
 
-function Head() {
+function Kontakt() {
   return (
     <React.Fragment>
       <div className="container">
-        <p>Lorem ipsum dolor sit</p>
+        <img src="" alt="" />
       </div>
     </React.Fragment>
   );
 }
 
-export default Head;
+export default Kontakt;
