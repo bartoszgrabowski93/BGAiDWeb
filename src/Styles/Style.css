@@ -12,6 +12,9 @@
   box-sizing: border-box;
 }
 
+.logo {
+}
+
 .containerNav {
   display: flex;
   background-color: #dddddd;
@@ -25,24 +28,27 @@
 }
 .containerMain {
   flex: 5;
+  text-align: center;
 }
 
-ul {
+.containerNav ul {
   display: flex;
+  width: 100%;
+  list-style-type: none;
+  background-color: #dddddd;
+}
+.containerNav li {
+  flex: 1;
+  list-style-type: none;
+  padding: 10px 0;
+}
+
+.linkNavbar {
   list-style-type: none;
 }
 
-li {
-  flex: 1;
-  float: left;
-  padding: 0 5px;
-  display: inline;
-}
-
-.NaviButton {
-  text-decoration-color: #dddddd;
-}
-
-.KontaktButton {
-  text-decoration-color: #dddddd;
+.footer {
+  padding: 20px 0px;
+  text-align: center;
+  background-color: #dddddd;
 }

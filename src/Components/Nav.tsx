@@ -5,28 +5,42 @@ import { Link } from "react-router-dom";
 function Nav() {
   return (
     <React.Fragment>
-      <div className="containerNav">
-        <ul>
-          <li className="NaviButton">
-            <Link to={"/"}>Home</Link>
+      <div>
+        <ul className="containerNav">
+          <li>
+            <Link to={"/"} className="linkNavbar">
+              Home
+            </Link>
           </li>
-          <li className="NaviButton">
-            <Link to={"/oferta/"}>Oferta</Link>
+          <li>
+            <Link to={"/oferta/"} className="linkNavbar">
+              Oferta
+            </Link>
           </li>
-          <li className="NaviButton">
-            <Link to={"/architektura/"}>Architektura</Link>
+          <li>
+            <Link to={"/architektura/"} className="linkNavbar">
+              Architektura
+            </Link>
           </li>
-          <li className="NaviButton">
-            <Link to={"/wnetrza/"}>Wnetrza</Link>
+          <li>
+            <Link to={"/wnetrza/"} className="linkNavbar">
+              Wnetrza
+            </Link>
           </li>
-          <li className="NaviButton">
-            <Link to={"/ogrody/"}>Ogrody</Link>
+          <li>
+            <Link to={"/ogrody/"} className="linkNavbar">
+              Ogrody
+            </Link>
           </li>
-          <li className="NaviButton">
-            <Link to={"/wzornictwo/"}>Wzornictwo</Link>
+          <li>
+            <Link to={"/wzornictwo/"} className="linkNavbar">
+              Wzornictwo
+            </Link>
           </li>
-          <li className="KontaktButton">
-            <Link to={"/kontakt/"}>Kontakt</Link>
+          <li>
+            <Link to={"/kontakt/"} className="linkNavbar">
+              Kontakt
+            </Link>
           </li>
         </ul>
       </div>
