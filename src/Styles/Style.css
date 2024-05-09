@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'")
+    format("Roboto");
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.containerNav {
+  display: flex;
+  background-color: #dddddd;
+}
+
+.container {
+  display: flex;
+}
+.containerEmpty {
+  flex: 1;
+}
+.containerMain {
+  flex: 5;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  flex: 1;
+  float: left;
+  padding: 0 5px;
+  display: inline;
+}
+
+.NaviButton {
+  text-decoration-color: #dddddd;
+}
+
+.KontaktButton {
+  text-decoration-color: #dddddd;
+}

@@ -18,10 +18,10 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <BrowserRouter>
       <div>
         <header>
-          <Head />;
+          <Head />
         </header>
         <nav>
-          <Nav />;
+          <Nav />
         </nav>
         <body>
           <div className="container">
@@ -30,7 +30,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
                 path="/"
                 element={
                   <>
-                    <Home />;
+                    <Home />
                   </>
                 }
               />
@@ -38,7 +38,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
                 path="/oferta/"
                 element={
                   <>
-                    <Oferta />;
+                    <Oferta />
                   </>
                 }
               />
@@ -85,7 +85,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
             </Routes>
           </div>
         </body>
-        <Footer />;
+        <Footer />
       </div>
     </BrowserRouter>
   </React.StrictMode>
